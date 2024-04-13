@@ -1,5 +1,5 @@
 import React from 'react';
-import { AddIcon, Box, Center, Fab, FabIcon, FabLabel, GluestackUIProvider, ImageBackground, Text, VStack, View, ScrollView, Pressable } from '@gluestack-ui/themed';
+import { AddIcon, Box, Center, Fab, FabIcon, FabLabel, GluestackUIProvider, ImageBackground, Text, VStack, View, ScrollView, Link } from '@gluestack-ui/themed';
 import { config } from '@gluestack-ui/config';
 import Viewer from '../components/Viewer';
 
@@ -10,7 +10,10 @@ export default function ViewNotePage({ navigation }) {
                 source={require('../img/bg.png')}
                 style={{ flex: 1, justifyContent: "center" }}>
                 <View>
-                    <Text m='$4' size='4xl' fontWeight='$bold'>Hi User</Text>
+                    <Link onPress={() => navigation.navigate("MyAccount")} size='md'>
+                        {/* <LinkText>Don't have account</LinkText> */}
+                        <Text m='$4' size='4xl' fontWeight='$bold'>Hi User</Text>
+                    </Link>
                 </View>
                 <ScrollView flex={1} h={100} p="$6">
                     <Box marginTop={0}>

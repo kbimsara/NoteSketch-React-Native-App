@@ -32,7 +32,7 @@ const Viewer = () => {
                             your purchase.
                         </AccordionContentText>
                         <Center>
-                            <Button>Button</Button>
+                            <Button>Delete</Button>
                         </Center>
                     </AccordionContent>
                 </AccordionItem>

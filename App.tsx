@@ -5,6 +5,7 @@ import HomePage from './src/pages/HomePage';
 import ViewNotePage from './src/pages/ViewNotePage';
 import EditPage from './src/pages/EditPage';
 import LoginPage from './src/pages/LoginPage';
+import MyAccount from './src/pages/MyAccount';
 
 export default function App() {
   
@@ -18,6 +19,7 @@ export default function App() {
         <Stack.Screen name="ViewNotePage" component={ViewNotePage} />
         <Stack.Screen name="EditPage" component={EditPage} />
         <Stack.Screen name="LoginPage" component={LoginPage} />
+        <Stack.Screen name="MyAccount" component={MyAccount} />
       </Stack.Navigator>
     </NavigationContainer>
   );
