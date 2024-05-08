@@ -5,21 +5,16 @@ This is a [Next.js](https://github.com/expo/expo) + [Gluestack-ui](https://ui.gl
 First, run the development server:
 
 ```bash
-# For web
-yarn web
-# For ios
-yarn ios
-# For android
-yarn android
+# start server
+npx expo start
 ```
 
-You can start editing the page by modifying `App.tsx`. The page auto-updates as you edit the file.
+- [Back-end Server](https://github.com/kbimsara/NoteSketch-Nodejs-Server).
+  
 
-This project uses [`@gluestack-ui`](https://ui.gluestack.io/docs/overview/introduction) library that provides optionally styled and accessible components. These components are designed for easy integration into applications developed with React and React Native.
 
 
 ## Learn More
-
 To learn more about Expo + Gluestack UI template, take a look at the following resources:
 
 - [Expo Documentation](https://github.com/expo/expo) - learn about Expo features and API.
